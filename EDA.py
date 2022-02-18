@@ -33,5 +33,7 @@ def split_data(path_to_data, path_to_save_train, path_to_save_valid, split_size=
 
             shutil.copy(x, path_to_folder)
 
+print("Bhadwa madarchod")
+
         
 
