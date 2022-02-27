@@ -12,7 +12,6 @@ def split_data(path_to_data, path_to_save_train, path_to_save_valid, split_size=
     for folder in folders:
 
         full_path = os.path.join(path_to_data, folder)
-        # importing only .png files(images)
         images_path = glob.glob(os.path.join(full_path, '*.png'))
 
         x_train, x_val = train_test_split(images_path, test_size=split_size)
